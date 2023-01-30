@@ -20,7 +20,7 @@ int chet = 0;
     int[] array = new int[razmerprov];
     for(int i = 0; i < razmerprov; i++)
     {
-    array[i] = new Random().Next(100, 1000);
+        array[i] = new Random().Next(100, 1000);
         if(array[i] % 2 == 0)
         {
          chet++;
