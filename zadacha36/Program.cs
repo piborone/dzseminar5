@@ -18,7 +18,7 @@ int[] Random(int numbers)
     int[] array = new int[numbers];
         for(int i = 0; i < numbers; i++)
     {
-        array[i] = new Random().Next(0, 10); 
+        array[i] = new Random().Next(-10, 10); 
     }
     return array;
 }
